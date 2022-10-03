@@ -1,5 +1,4 @@
 <div class="markdown-body css-0"><div class="markdown-body css-0"><h2><strong>☁️欢迎使用CGY云盘☁️</strong><strong><a href="https://zpay.capi.gay/">点击购买签名证书</a></strong></h2>
-<h2><a href="https://zpay.capi.gay/">点击购买签名证书</a></h2>
 <h4><strong>本云盘所有软件皆经过测试，支持iPhone/iPad</strong></h4>
 <h4><strong>⚠️部分应用修改BundleID可多开安装</strong></h4>
 <h4><strong>⚠️越狱用户可直接安装，未越狱用户需签名后安装</strong></h4>
