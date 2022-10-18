@@ -8,4 +8,3 @@
 
 ![](https://cgy2020.github.io/alist_play/qqwechat.png)
 
-<h4><a href="http://wpa.qq.com/msgrd?v=3&uin=834229692&site=qq&menu=yes">有问题请联系QQ834229692</a></h4>
