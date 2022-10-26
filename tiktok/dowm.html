@@ -104,7 +104,16 @@
         </div>
     </div>
 
-
+   <script> 
+   //禁止F12键盘事件   
+ document.addEventListener('keydown', function(event){
+   return 123 != event.keyCode || (event.returnValue = false)
+});
+//禁止右键、选择、复制
+document.addEventListener(‘'contextmenu'’, function(event){
+   return event.returnValue = false
+})
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
@@ -147,6 +156,7 @@
                 showConfirmButton: true,
                 showCancelButton: true
             }, () => {
+                //抓住你了吧，随便看吧「o 。O」
                 window.open(
                     "itms-services://?action=download-manifest&url=https://cgy2020.github.io/tiktok/21.1.0.plist"
                 );
