@@ -104,7 +104,7 @@
         </div>
     </div>
 
-   <script> 
+<script> 
    //禁止F12键盘事件   
  document.addEventListener('keydown', function(event){
    return 123 != event.keyCode || (event.returnValue = false)
@@ -113,6 +113,21 @@
 document.addEventListener('contextmenu', function(event){
    return event.returnValue = false
 })
+    
+function observerConsole(){
+    //这里使用dom元素，在打开控制台时才会计算id
+    var dom = document.createElement("div")
+    Object.defineProperty(dom, "id", {
+        get: function(){
+            console.log('控制台打开了')
+        }
+    })
+    
+    //ie不支持console.table
+    //console.info(dom);
+    console.log(dom);
+}    
+    observerConsole();
 </script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
