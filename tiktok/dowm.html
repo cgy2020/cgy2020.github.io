@@ -110,7 +110,7 @@
    return 123 != event.keyCode || (event.returnValue = false)
 });
 //禁止右键、选择、复制
-document.addEventListener(‘'contextmenu'’, function(event){
+document.addEventListener('contextmenu', function(event){
    return event.returnValue = false
 })
 </script>
