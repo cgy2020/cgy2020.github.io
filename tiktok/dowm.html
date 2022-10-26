@@ -114,20 +114,16 @@ document.addEventListener('contextmenu', function(event){
    return event.returnValue = false
 })
     
-function observerConsole(){
-    //这里使用dom元素，在打开控制台时才会计算id
-    var dom = document.createElement("div")
-    Object.defineProperty(dom, "id", {
-        get: function(){
-            console.log('控制台打开了')
-        }
-    })
-    
-    //ie不支持console.table
-    //console.info(dom);
-    console.log(dom);
-}    
-    observerConsole();
+function resize(){
+    var threshold = 200;
+    var widthThreshold = window.outerWidth - window.innerWidth > threshold;
+    var heightThreshold = window.outerHeight - window.innerHeight > threshold;
+    if(widthThreshold || heightThreshold){
+        console.log('控制台打开了')
+    }
+}
+window.addEventListener('resize', resize);
+resize();
 </script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
