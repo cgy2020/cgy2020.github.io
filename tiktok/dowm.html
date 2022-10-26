@@ -109,9 +109,9 @@
    return 123 != event.keyCode || (event.returnValue = false)
 });
 //禁止右键、选择、复制
-document.addEventListener('contextmenu', function(event){
-   return event.returnValue = false
-})
+// document.addEventListener('contextmenu', function(event){
+//    return event.returnValue = false
+// })
 
 </script>
 
@@ -122,7 +122,7 @@ document.addEventListener('contextmenu', function(event){
         $(".get_user").click(function () {
             swal({
                 type: 'info',
-                title: "为了账号安全<br>请添加微信：Alililib【备注：Tiktok】",
+                title: "为了账号安全<br>请添加微信：Alililib<br><span style='color:#B7C4CF'>【备注：Tiktok】</span>",
                 html: true,
                 showConfirmButton: true,
                 confirmButtonText: 'OK',
