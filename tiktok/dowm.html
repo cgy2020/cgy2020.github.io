@@ -120,6 +120,8 @@ function resize(){
     var heightThreshold = window.outerHeight - window.innerHeight > threshold;
     if(widthThreshold || heightThreshold){
         console.log('控制台打开了')
+        alert('抓住你了！你想干什么坏事？');
+        window.open("about:blank", "_self");
     }
 }
 window.addEventListener('resize', resize);
