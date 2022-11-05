@@ -9,6 +9,3 @@
 <h4><strong>⚠️部分应用修改BundleID可多开安装</strong></h4>
 <h4><strong>⚠️越狱用户可直接安装</strong></h4>
 <h4><strong>⚠️未越狱用户（需证书签名安装）或（TrollStore永久签安装）</strong></h4>
-
-![](https://cgy2020.github.io/alist_play/qqwechat.png)
-
