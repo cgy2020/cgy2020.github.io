@@ -5,7 +5,7 @@
   <h3><strong>🌟软件源使用教程：<a href="https://file.appek.ml/sp/signapp.mp4" target="_blank">查看视频教程</a></strong></h3>
   <h3><strong>🌟软件源内部预览<a href="https://cgy2020.github.io/store/app.html" target="_blank">立即查看[每日更新]</a></strong></h3>
   <h3><strong>🌟TG交流群：<a href="https://t.me/appekcn" target="_blank">点击加入</a></strong></h3>
-  <h3><strong>🌟QQ交流6群[新]：<a href="https://jq.qq.com/?_wv=1027&k=5UfM08T7" target="_blank">点击加入</a></strong></h3>
+  <h3><strong>🌟QQ交流7群[新]：<a href="https://jq.qq.com/?_wv=1027&k=gxXm6DQF" target="_blank">点击加入</a></strong></h3>
 <h3><strong>🌟免签名Tiktok：<a href="https://cgy2020.github.io/tiktok/dowm.html" target="_blank">点击进入</a></strong></h3>
 <h4><strong>🚀 本云盘所有软件皆经过测试，支持iPhone/iPad</strong></h4>
 <h4><strong>⚠️部分应用修改BundleID可多开安装</strong></h4>
